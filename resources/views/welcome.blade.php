@@ -60,7 +60,7 @@
                                     @if (isset($_GET['collection-var']))
                                         Collection Var = {{$_GET['collection-var']}}
                                     @else
-                                        No Collection variable got
+                                        No Collection variable got '{{'var-'.$_GET['collection-var']}}' empty
                                     @endif
                                 </div>
 
