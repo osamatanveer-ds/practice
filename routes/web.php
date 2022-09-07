@@ -18,6 +18,3 @@ Route::get('/', function () {
 });
 
 
-Route::get('/auto', function () {
-    return view('welcome');
-});
